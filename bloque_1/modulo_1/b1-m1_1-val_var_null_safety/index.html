@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#val-vs-var-null-safety" class="md-skip">
+        <a href="#val-vs-var-null-safety-el-fin-de-los-crasheos" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -899,7 +899,7 @@
   <span class="md-ellipsis">
     
   
-    Inicio Módulo 1
+    Kotlin para supervivientes de Java
   
 
     
@@ -929,6 +929,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Val vs Var & Null Safety
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -945,6 +963,80 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#val-vs-var-la-inmutabilidad-por-bandera" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        val vs var: La inmutabilidad por bandera
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#null-safety-el-sistema-antitontos-de-kotlin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Null Safety: El sistema antitontos de Kotlin
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#safe-call-navegacion-segura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safe Call (?.): Navegación Segura
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operador-elvis-el-plan-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operador Elvis (?:): El Plan B
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#choque-cultural-java-vs-kotlin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Choque Cultural: Java vs Kotlin
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -6347,6 +6439,69 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#val-vs-var-la-inmutabilidad-por-bandera" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        val vs var: La inmutabilidad por bandera
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#null-safety-el-sistema-antitontos-de-kotlin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Null Safety: El sistema antitontos de Kotlin
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#safe-call-navegacion-segura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safe Call (?.): Navegación Segura
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operador-elvis-el-plan-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operador Elvis (?:): El Plan B
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#choque-cultural-java-vs-kotlin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Choque Cultural: Java vs Kotlin
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -6362,7 +6517,113 @@
 
 
 
-<h1 id="val-vs-var-null-safety">Val vs Var &amp; Null Safety</h1>
+<h1 id="val-vs-var-null-safety-el-fin-de-los-crasheos">Val vs Var &amp; Null Safety: El fin de los "Crasheos"</h1>
+<p>Bienvenidos a vuestra primera línea de código en Kotlin. Si venís de Java, estáis acostumbrados a ser muy explícitos: <code>String nombre = "Juan";</code>. <strong>En Kotlin, el compilador es muy listo y adivina los tipos por ti</strong>. Pero a cambio, te va a obligar a tomar dos decisiones críticas cada vez que crees una variable: <strong>¿Va a cambiar su valor?</strong> y <strong>¿Puede llegar a estar vacía (ser nula)?</strong></p>
+<p>Vamos a desterrar el famoso <code>NullPointerException</code> (el error que más apps cierra en el mundo) de nuestro día a día.</p>
+<hr />
+<h2 id="val-vs-var-la-inmutabilidad-por-bandera"><code>val</code> vs <code>var</code>: La inmutabilidad por bandera</h2>
+<p>En Kotlin, no empezamos declarando el tipo de dato (como <code>int</code> o <code>String</code>). Empezamos declarando la "intención" de esa variable usando <code>val</code> o <code>var</code>.</p>
+<ul>
+<li><strong><code>var</code> (Variable):</strong> Su valor puede cambiar en el futuro. Es la variable clásica de toda la vida.</li>
+<li><strong><code>val</code> (Value/Valor):</strong> Es inmutable. Una vez que le asignas un valor, no puede cambiar nunca más (es el equivalente a <code>final</code> en Java, una constante).</li>
+</ul>
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">fun</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="c1">// Usamos &#39;var&#39; porque la edad cambia cada año</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nv">edad</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">20</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="n">edad</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">21</span><span class="w"> </span><span class="c1">// ✅ Perfecto, el compilador lo permite</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="c1">// Usamos &#39;val&#39; porque el DNI no cambia nunca</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="nv">dni</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;12345678A&quot;</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="c1">// dni = &quot;87654321B&quot; // ❌ ERROR DE COMPILACIÓN: Val cannot be reassigned</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">    </span><span class="c1">// Fíjate que no hemos escrito la palabra &#39;String&#39; ni &#39;Int&#39;. </span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="c1">// Kotlin lo infiere automáticamente, pero si quieres ser explícito, se hace así:</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="nv">ciudad</span><span class="p">:</span><span class="w"> </span><span class="kt">String</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Pamplona&quot;</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="p">}</span>
+</span></code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">La Regla de Oro en Android Moderno</p>
+<p>En Jetpack Compose (el entorno visual que usaremos), la inmutabilidad es clave. <strong>Acostúmbrate a usar SIEMPRE <code>val</code> por defecto</strong>. Solo cuando el compilador te dé un error porque necesitas modificar ese dato más adelante, cámbialo a <code>var</code>. Un código con muchos <code>val</code> es un código predecible y sin efectos secundarios.</p>
+</div>
+<hr />
+<h2 id="null-safety-el-sistema-antitontos-de-kotlin">Null Safety: El sistema antitontos de Kotlin</h2>
+<p>En Java, cualquier objeto puede ser <code>null</code>. Tú intentas acceder a <code>usuario.getNombre()</code> y, si el usuario era nulo, la aplicación explota y se cierra de golpe (<code>NullPointerException</code>).</p>
+<p>En Kotlin, los nulos están <strong>prohibidos por defecto</strong>. Si intentas asignar un <code>null</code> a una variable normal, el programa ni siquiera te dejará compilar (no te dejará darle al botón de <em>Play</em>).</p>
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">// 1. Variable NO nula (Por defecto)</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="kd">var</span><span class="w"> </span><span class="nv">nombre</span><span class="p">:</span><span class="w"> </span><span class="kt">String</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Marta&quot;</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="c1">// nombre = null // ❌ ERROR: Null can not be a value of a non-null type String</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="c1">// 2. Variable NULA (Añadimos el símbolo &#39;?&#39;)</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="c1">// Solo si estamos 100% seguros de que necesitamos que algo pueda estar vacío:</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="kd">var</span><span class="w"> </span><span class="nv">segundoApellido</span><span class="p">:</span><span class="w"> </span><span class="kt">String?</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;García&quot;</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="n">segundoApellido</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="c1">// ✅ OK: Kotlin sabe que esto puede estar vacío</span>
+</span></code></pre></div>
+<hr />
+<h2 id="safe-call-navegacion-segura">Safe Call (<code>?.</code>): Navegación Segura</h2>
+<p>Imagina que tenemos esa variable <code>segundoApellido</code> que permitimos que fuera nula (<code>String?</code>). Si ahora intentamos saber cuántas letras tiene (<code>segundoApellido.length</code>), Kotlin nos dará un tortazo en la mano y nos dirá: <em>"¡Eh! Que esto podría ser nulo, te vas a estrellar"</em>.</p>
+<p>Para solucionarlo, usamos el <strong>Safe Call (<code>?.</code>)</strong>.</p>
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">var</span><span class="w"> </span><span class="nv">correo</span><span class="p">:</span><span class="w"> </span><span class="kt">String?</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">null</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="cm">/*  En Java haríamos un if enorme:</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="cm">    if (correo != null) {</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="cm">       return correo.length();</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="cm">    } else {</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="cm">        return null;</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="cm">    }</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="cm">*/</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="c1">// En Kotlin, el Safe Call lo hace en dos caracteres:</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="kd">val</span><span class="w"> </span><span class="nv">longitud</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">correo</span><span class="o">?.</span><span class="na">length</span><span class="w"> </span><span class="c1">// (1)!</span>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="n">println</span><span class="p">(</span><span class="n">longitud</span><span class="p">)</span><span class="w"> </span><span class="c1">// Imprime: null</span>
+</span></code></pre></div>
+<ol>
+<li><strong>Explicación:</strong> Si <code>correo</code> tiene texto, te da la longitud. Si <code>correo</code> es <code>null</code>, toda la expresión devuelve <code>null</code> en lugar de romper la app.</li>
+</ol>
+<hr />
+<h2 id="operador-elvis-el-plan-b">Operador Elvis (<code>?:</code>): El Plan B</h2>
+<p>El Safe Call está muy bien, pero a veces no queremos que el resultado final sea <code>null</code>. Queremos un <strong>valor por defecto</strong>.</p>
+<p>Aquí entra el maravilloso <strong>Operador Elvis (<code>?:</code>)</strong>. Se llama así porque si giras la cabeza 90 grados a la izquierda, parece el tupé de Elvis Presley 🕺. Su función es simple: <em>"Usa lo de la izquierda, pero si es nulo, usa lo de la derecha"</em>.</p>
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">var</span><span class="w"> </span><span class="nv">inputDelUsuario</span><span class="p">:</span><span class="w"> </span><span class="kt">String?</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="c1">// El usuario no escribió nada</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="c1">// Leemos la longitud del texto. </span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1">// Si inputDelUsuario es nulo, el Elvis &#39;?:&#39; entra en acción y le asigna un 0.</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="kd">val</span><span class="w"> </span><span class="nv">longitudSegura</span><span class="p">:</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">inputDelUsuario</span><span class="o">?.</span><span class="na">length</span><span class="w"> </span><span class="o">?:</span><span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="c1">// (1)!</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="n">println</span><span class="p">(</span><span class="s">&quot;Has escrito </span><span class="si">$</span><span class="n">longitudSegura</span><span class="s"> caracteres.&quot;</span><span class="p">)</span><span class="w"> </span><span class="c1">// Imprime: Has escrito 0 caracteres.</span>
+</span></code></pre></div>
+<ol>
+<li>El operador evalúa primero lo de la izquierda. Como en este caso es nulo, automáticamente salta a la derecha y asigna el valor <code>0</code>.</li>
+</ol>
+<hr />
+<h2 id="choque-cultural-java-vs-kotlin">Choque Cultural: Java vs Kotlin</h2>
+<p>Para que aprecies lo que acabas de aprender, mira cómo se haría exactamente lo mismo en ambos lenguajes:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Kotlin</label><label for="__tabbed_1_2">Java</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">val</span><span class="w"> </span><span class="nv">inputDelUsuario</span><span class="p">:</span><span class="w"> </span><span class="kt">String?</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">null</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="kd">val</span><span class="w"> </span><span class="nv">longitudSegura</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">inputDelUsuario</span><span class="o">?.</span><span class="na">length</span><span class="w"> </span><span class="o">?:</span><span class="w"> </span><span class="m">0</span>
+</span></code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="language-java highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">String</span><span class="w"> </span><span class="n">inputDelUsuario</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="kt">int</span><span class="w"> </span><span class="n">longitudSegura</span><span class="p">;</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">inputDelUsuario</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">    </span><span class="n">longitudSegura</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">inputDelUsuario</span><span class="p">.</span><span class="na">length</span><span class="p">();</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">    </span><span class="n">longitudSegura</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="p">}</span>
+</span></code></pre></div>
+</div>
+</div>
+</div>
+<p><em>(De 7 líneas de código a 2, y con 0% de posibilidades de que la app se cierre por un error de nulo).</em></p>
+<hr />
+<p>Ahora que sabemos crear variables a prueba de bombas y hemos enterrado los errores nulos, vamos a ver cómo Kotlin revoluciona la forma de crear objetos y pasar funciones de un lado a otro.</p>
+<div align="right" style="margin-top: 2rem;">
+  <a class="md-button md-button--primary" href="../b1-m1_2-data_class_lambdas/">Data Classes &amp; Lambdas ➡️</a>
+</div>
 
 
 
