@@ -18,7 +18,7 @@
         <link rel="prev" href="../b1-m1_4-colecciones_modernas/">
       
       
-        <link rel="next" href="../../modulo_2/b1-m2-inicio/">
+        <link rel="next" href="../b1-m1-practica/">
       
       
         
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#corrutinas-basicas" class="md-skip">
+        <a href="#corrutinas-basicas-el-arte-de-esperar-sin-congelarse" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -837,6 +837,8 @@
       
         
       
+        
+      
     
     
     
@@ -1041,6 +1043,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Corrutinas Básicas
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1058,6 +1078,114 @@
 
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bloquear-vs-suspender-la-analogia-del-desayuno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛑 Bloquear vs. Suspender (La Analogía del Desayuno)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#la-palabra-magica-suspend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚡ La palabra mágica: suspend
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#codigo-thread-vs-coroutine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Código: Thread vs Coroutine
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#los-dispatchers-donde-ejecutamos-el-codigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚦 Los Dispatchers (¿Dónde ejecutamos el código?)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚦 Los Dispatchers (¿Dónde ejecutamos el código?)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-de-cambio-de-hilo-withcontext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo de cambio de hilo (withContext)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../b1-m1-practica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PRÁCTICA: El código Frankenstein
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -6347,6 +6475,75 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bloquear-vs-suspender-la-analogia-del-desayuno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛑 Bloquear vs. Suspender (La Analogía del Desayuno)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#la-palabra-magica-suspend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚡ La palabra mágica: suspend
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#codigo-thread-vs-coroutine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Código: Thread vs Coroutine
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#los-dispatchers-donde-ejecutamos-el-codigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚦 Los Dispatchers (¿Dónde ejecutamos el código?)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚦 Los Dispatchers (¿Dónde ejecutamos el código?)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-de-cambio-de-hilo-withcontext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo de cambio de hilo (withContext)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -6362,7 +6559,138 @@
 
 
 
-<h1 id="corrutinas-basicas">Corrutinas Básicas</h1>
+<h1 id="corrutinas-basicas-el-arte-de-esperar-sin-congelarse">Corrutinas Básicas: El arte de esperar sin congelarse</h1>
+<p>Llegamos al concepto más difícil pero más revolucionario de Kotlin.</p>
+<p>En Android, existe una regla sagrada: <strong>El Hilo Principal (<em>Main Thread</em>) es intocable</strong>. Este hilo es el encargado de dibujar la interfaz y reaccionar a los toques del usuario.</p>
+<ul>
+<li>Si haces una operación pesada (descargar un archivo, consultar una base de datos) en este hilo, la app se congela.</li>
+<li>Si tarda más de 5 segundos, el sistema operativo mata tu app y muestra el temido mensaje <strong>ANR</strong> (<em>Application Not Responding</em>).</li>
+</ul>
+<p>Antiguamente, para evitar esto usábamos "Hilos" (<em>Threads</em>) y "Callbacks", creando un código espagueti ilegible. Hoy, usamos <strong>Corrutinas</strong>.</p>
+<hr />
+<h2 id="bloquear-vs-suspender-la-analogia-del-desayuno">🛑 Bloquear vs. Suspender (La Analogía del Desayuno)</h2>
+<p>Para entender esto, imagina que eres un cocinero (el Hilo Principal) preparando el desayuno. Tienes que hacer tostadas.</p>
+<div class="admonition example">
+<p class="admonition-title">El Dilema de la Tostadora</p>
+<p><strong>1. Bloquear el Hilo (<code>Thread.sleep</code>)</strong>
+Metes el pan en la tostadora (tarda 2 minutos). Como estás "bloqueado", te quedas mirando fijamente la tostadora sin moverte hasta que salta.</p>
+<ul>
+<li><strong>Consecuencia:</strong> Si entra un cliente (el usuario) a pedir café, no puedes atenderle porque estás "congelado" mirando la tostadora. La app no responde.</li>
+</ul>
+<p><strong>2. Suspender la Ejecución (<code>suspend</code> + <code>delay</code>)</strong>
+Metes el pan en la tostadora. Mientras se hace, anotas mentalmente que tienes una tarea pendiente (suspensión) y te vas a preparar el café o a atender al cliente. Cuando la tostadora hace "clinc", vuelves a ella.</p>
+<ul>
+<li><strong>Consecuencia:</strong> Has hecho dos cosas a la vez sin necesidad de clonarte (crear otro hilo). La app sigue fluida.</li>
+</ul>
+</div>
+<figure>
+  <img alt="Esquema visual Bloqueo vs Suspensión" src="../../../assets/bloque_1/modulo_1/5_suspend_delay.jpg" />
+<br />
+<figcaption>Figura 1: Arriba: Bloqueo (el hilo no hace nada más). Abajo: Suspensión (el hilo aprovecha el tiempo de espera para otras tareas).</figcaption>
+</figure>
+<hr />
+<h2 id="la-palabra-magica-suspend">⚡ La palabra mágica: <code>suspend</code></h2>
+<p>En Kotlin, para avisar al compilador de que una función puede "pausarse" sin bloquear el hilo, le ponemos la etiqueta <code>suspend</code>.</p>
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1">// Función normal (Bloqueante si tarda mucho)</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kd">fun</span><span class="w"> </span><span class="nf">prepararCafe</span><span class="p">():</span><span class="w"> </span><span class="kt">String</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="c1">// ... lógica pesada ...</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="s">&quot;Café listo&quot;</span><span class="w"> </span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">}</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c1">// Función de suspensión (No bloqueante)</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="kd">suspend</span><span class="w"> </span><span class="kd">fun</span><span class="w"> </span><span class="nf">descargarDatosDeInternet</span><span class="p">():</span><span class="w"> </span><span class="kt">String</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">    </span><span class="c1">// Simulamos una espera de 2 segundos sin congelar la app</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">    </span><span class="n">delay</span><span class="p">(</span><span class="m">2000</span><span class="p">)</span><span class="w"> </span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="s">&quot;Datos descargados&quot;</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="p">}</span>
+</span></code></pre></div>
+<div class="admonition danger">
+<p class="admonition-title">La Regla de Oro de las Corrutinas</p>
+<p>Una función <code>suspend</code> <strong>SOLO</strong> puede ser llamada desde:</p>
+<ol>
+<li>Otra función <code>suspend</code>.</li>
+<li>Una Corrutina (un bloque constructor como <code>launch</code> o <code>runBlocking</code>).</li>
+</ol>
+<p>No puedes llamar a una función suspendida desde un botón normal sin preparar antes el terreno (lo veremos en la práctica).</p>
+</div>
+<hr />
+<h2 id="codigo-thread-vs-coroutine">🛠️ Código: Thread vs Coroutine</h2>
+<p>Vamos a ver la diferencia real en código. Fíjate bien en la salida de cada uno.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">✅ La forma Kotlin (Suspensión)</label><label for="__tabbed_1_2">❌ La forma antigua (Bloqueante)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">import</span><span class="w"> </span><span class="nn">kotlinx.coroutines.*</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="kd">fun</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">runBlocking</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// Creamos un entorno de corrutinas</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Empieza el programa&quot;</span><span class="p">)</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="n">launch</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// Lanzamos una tarea en &quot;segundo plano&quot; (concurrente)</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">        </span><span class="n">delay</span><span class="p">(</span><span class="m">1000</span><span class="p">)</span><span class="w"> </span><span class="c1">// Pausa de 1 seg SIN bloquear el hilo principal</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">        </span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Tarea terminada&quot;</span><span class="p">)</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">    </span><span class="n">println</span><span class="p">(</span><span class="s">&quot;El hilo principal sigue trabajando...&quot;</span><span class="p">)</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="p">}</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="c1">// SALIDA:</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="c1">// 1. Empieza el programa</span>
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="c1">// 2. El hilo principal sigue trabajando... (¡No se esperó!)</span>
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="c1">// 3. (1 segundo después) Tarea terminada</span>
+</span></code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">fun</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Empieza el programa&quot;</span><span class="p">)</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="c1">// Esto CONGELA el hilo durante 1 segundo. </span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="c1">// Si fuera una app Android, la pantalla se quedaría negra.</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="n">Thread</span><span class="p">.</span><span class="na">sleep</span><span class="p">(</span><span class="m">1000</span><span class="p">)</span><span class="w"> </span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">    </span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Termina el programa&quot;</span><span class="p">)</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="p">}</span>
+</span></code></pre></div>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="los-dispatchers-donde-ejecutamos-el-codigo">🚦 Los Dispatchers (¿Dónde ejecutamos el código?)</h2>
+<p>En Android, no basta con suspender. A veces necesitamos mover el trabajo pesado a un carril diferente de la autopista para no molestar a la UI (la interfaz). Para eso usamos los <strong>Dispatchers</strong>.</p>
+<ul>
+<li>🎨 <strong><code>Dispatchers.Main</code>:</strong> Es el hilo de la UI. Úsalo solo para cosas ligeras y para pintar en pantalla.</li>
+<li>💾 <strong><code>Dispatchers.IO</code>:</strong> (<em>Input/Output</em>). Optimizado para leer bases de datos, ficheros o redes. Aquí es donde haremos las llamadas a la API o Room.</li>
+<li>🧠 <strong><code>Dispatchers.Default</code>:</strong> Para cálculos matemáticos pesados (procesar una foto, algoritmos complejos) que usan mucha CPU.</li>
+</ul>
+<h3 id="ejemplo-de-cambio-de-hilo-withcontext">Ejemplo de cambio de hilo (<code>withContext</code>)</h3>
+<p>Es el patrón más común que usarás en el curso.</p>
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">suspend</span><span class="w"> </span><span class="kd">fun</span><span class="w"> </span><span class="nf">loginUsuario</span><span class="p">(</span><span class="n">user</span><span class="p">:</span><span class="w"> </span><span class="kt">String</span><span class="p">,</span><span class="w"> </span><span class="n">pass</span><span class="p">:</span><span class="w"> </span><span class="kt">String</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="c1">// 1. Estamos en el hilo Main (UI), mostramos un spinner</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="n">mostrarCargando</span><span class="p">()</span><span class="w"> </span><span class="c1">// (1)!</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="c1">// 2. Nos movemos al hilo IO para conectar con el servidor</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="nv">resultado</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">withContext</span><span class="p">(</span><span class="n">Dispatchers</span><span class="p">.</span><span class="na">IO</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// (2)!</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">        </span><span class="n">api</span><span class="p">.</span><span class="na">conectar</span><span class="p">(</span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">pass</span><span class="p">)</span><span class="w"> </span><span class="c1">// Esto tarda 3 segundos</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">    </span><span class="c1">// 3. Volvemos automáticamente al hilo Main para mostrar el resultado</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">    </span><span class="n">ocultarCargando</span><span class="p">()</span><span class="w"> </span><span class="c1">// (3)!</span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">    </span><span class="n">mostrarBienvenida</span><span class="p">(</span><span class="n">resultado</span><span class="p">)</span>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="p">}</span>
+</span></code></pre></div>
+<ol>
+<li>Esta función actualiza la UI, por lo tanto debe correr en el hilo principal.</li>
+<li><code>withContext</code> suspende la función <code>loginUsuario</code>, mueve la ejecución al hilo secundario (IO), espera a que termine, y devuelve el resultado.</li>
+<li>Al salir del bloque <code>withContext</code>, Kotlin nos devuelve automáticamente al hilo original (Main) para que podamos seguir tocando la interfaz.</li>
+</ol>
+<hr />
+<div class="admonition success">
+<p class="admonition-title">🎉 ¡Fin del Bloque 1!</p>
+<p>Has sobrevivido a la teoría. Sabes configurar Android Studio, entiendes por qué Kotlin es más seguro que Java, manejas listas con programación funcional y entiendes que bloquear el hilo principal es pecado mortal.</p>
+<p>Ahora toca demostrarlo. Prepárate, porque tu primera Práctica del Módulo consiste en arreglar un código desastroso que rompe todas las reglas que acabamos de aprender.</p>
+</div>
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a class="md-button" href="../b1-m1_4-colecciones_modernas/">⬅️ Volver a Colecciones</a>
+  <a class="md-button md-button--primary" href="../b1-m1-practica/">👨‍💻 Ir a la Práctica: "El código Frankenstein" ➡️</a>
+</div>
 
 
 

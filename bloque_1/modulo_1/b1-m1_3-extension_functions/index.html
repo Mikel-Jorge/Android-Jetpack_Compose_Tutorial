@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#extension-functions" class="md-skip">
+        <a href="#extension-functions-inyectando-superpoderes" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -837,6 +837,8 @@
       
         
       
+        
+      
     
     
     
@@ -985,6 +987,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extension Functions
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1001,6 +1021,86 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#el-cambio-de-paradigma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆚 El cambio de paradigma
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-se-crean" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💻 ¿Cómo se crean?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💻 ¿Cómo se crean?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-validar-un-email" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo: Validar un Email
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#otro-ejemplo-util-formato-de-moneda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Otro ejemplo útil: Formato de Moneda
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#por-que-esto-es-vital-para-compose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀 ¿Por qué esto es vital para Compose?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1050,6 +1150,34 @@
     
   
     Corrutinas Básicas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../b1-m1-practica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PRÁCTICA: El código Frankenstein
   
 
     
@@ -6347,6 +6475,75 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#el-cambio-de-paradigma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🆚 El cambio de paradigma
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-se-crean" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💻 ¿Cómo se crean?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💻 ¿Cómo se crean?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-validar-un-email" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo: Validar un Email
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#otro-ejemplo-util-formato-de-moneda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Otro ejemplo útil: Formato de Moneda
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#por-que-esto-es-vital-para-compose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀 ¿Por qué esto es vital para Compose?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -6362,7 +6559,106 @@
 
 
 
-<h1 id="extension-functions">Extension Functions</h1>
+<h1 id="extension-functions-inyectando-superpoderes">Extension Functions: Inyectando superpoderes</h1>
+<p>Imagina que estás usando la clase <code>String</code> de Kotlin. Es una clase que tú no has escrito (viene en el lenguaje) y, por tanto, no puedes modificar su código fuente. No puedes abrir el archivo <code>String.kt</code> y añadirle un método nuevo.</p>
+<p>En Java, si queríamos validar si un texto era un email, teníamos que crear clases "ayudantes" horribles llamadas <code>StringUtils</code> o <code>Validators</code>.</p>
+<h3 id="el-cambio-de-paradigma">🆚 El cambio de paradigma</h3>
+<p>Mira cómo cambia la legibilidad del código:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🚀 Kotlin (Extension Functions)</label><label for="__tabbed_1_2">☕ Java</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1">// ¿Y si pudiéramos &quot;fingir&quot; que el método es parte de la clase String?</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="c1">// Llamamos al método como si fuera nativo. ✨</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">miCorreo</span><span class="p">.</span><span class="na">esEmailValido</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w"> </span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="c1">// ... </span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">}</span>
+</span></code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="language-java highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">// Teníamos que llamar a una clase externa estática</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="c1">// y pasarle nuestro objeto como parámetro. 🤢</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ValidatorUtils</span><span class="p">.</span><span class="na">esEmailValido</span><span class="p">(</span><span class="n">miCorreo</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w"> </span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="c1">// ... </span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="p">}</span>
+</span></code></pre></div>
+</div>
+</div>
+</div>
+<p>Esto es una <strong>Extension Function</strong>. Nos permite añadir funcionalidad a clases que no son nuestras (<code>Strings</code>, <code>Integers</code>, <code>Views</code>, <code>Contexts</code>...) <strong>sin necesidad de herencia ni patrones complejos</strong>.</p>
+<hr />
+<h2 id="como-se-crean">💻 ¿Cómo se crean?</h2>
+<p>La sintaxis es muy sencilla. Solo tienes que poner el nombre de la clase que quieres extender, un punto, y el nombre de tu nueva función.</p>
+<p>Dentro de la función, usamos la palabra clave <code>this</code> para referirnos al objeto que está llamando a la función (en este caso, el propio texto).</p>
+<h3 id="ejemplo-validar-un-email">Ejemplo: Validar un Email</h3>
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1">// 1. Definimos la extensión sobre la clase &#39;String&#39;</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="kd">fun</span><span class="w"> </span><span class="n">String</span><span class="p">.</span><span class="nf">esEmailValido</span><span class="p">():</span><span class="w"> </span><span class="kt">Boolean</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="c1">// &#39;this&#39; se refiere al texto concreto (ej: &quot;pepe@gmail.com&quot;)</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="c1">// Usamos un patrón regex simple para comprobar si tiene formato de correo</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="nv">patronEmail</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">android</span><span class="p">.</span><span class="na">util</span><span class="p">.</span><span class="na">Patterns</span><span class="p">.</span><span class="na">EMAIL_ADDRESS</span><span class="w"> </span><span class="c1">// (1)!</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">patronEmail</span><span class="p">.</span><span class="na">matcher</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="na">matches</span><span class="p">()</span><span class="w"> </span><span class="c1">// (2)!</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="p">}</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="kd">fun</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="nv">correoUsuario</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;alumno@fp.com&quot;</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="nv">correoFalso</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;esto-no-es-un-correo&quot;</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">    </span><span class="c1">// 2. ¡Magia! El autocompletado de Android Studio ahora nos sugiere </span>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">    </span><span class="c1">// nuestra función como si fuera nativa de Kotlin.</span>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">    </span><span class="n">println</span><span class="p">(</span><span class="n">correoUsuario</span><span class="p">.</span><span class="na">esEmailValido</span><span class="p">())</span><span class="w"> </span><span class="c1">// Imprime: true</span>
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">    </span><span class="n">println</span><span class="p">(</span><span class="n">correoFalso</span><span class="p">.</span><span class="na">esEmailValido</span><span class="p">())</span><span class="w">   </span><span class="c1">// Imprime: false</span>
+</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="p">}</span>
+</span></code></pre></div>
+<ol>
+<li>La clase <code>android.util.Patterns</code> es una joya oculta. Además de email, ya incluye validadores nativos para <strong>Teléfonos</strong> (<code>Patterns.PHONE</code>), <strong>URLs web</strong> (<code>Patterns.WEB_URL</code>) y <strong>Direcciones IP</strong> (<code>Patterns.IP_ADDRESS</code>). ¡Úsalos antes de inventar tu propia expresión regular compleja!</li>
+<li>La palabra clave <code>this</code> actúa como el sujeto de la oración. Si escribes <code>"hola".esEmailValido()</code>, dentro de la función, <code>this</code> valdrá <code>"hola"</code>.</li>
+</ol>
+<figure>
+  <img alt="Diagrama conceptual de Extension Function" src="../../../assets/bloque_1/modulo_1/3_extension_funcions.jpg" />
+<br />
+<figcaption>Figura 1: No estamos modificando el código original de la clase String (que es de solo lectura). Kotlin crea un "truco" visual para que parezca que el método pertenece a ella.</figcaption>
+</figure>
+<hr />
+<h2 id="otro-ejemplo-util-formato-de-moneda">🛠️ Otro ejemplo útil: Formato de Moneda</h2>
+<p>Imagina que trabajas con precios. Tienes un <code>Double</code> (ej: 19.99) y quieres mostrarlo bonito en la pantalla (19,99 €).</p>
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1">// Extendemos la clase Double</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="kd">fun</span><span class="w"> </span><span class="n">Double</span><span class="p">.</span><span class="nf">aFormatoEuro</span><span class="p">():</span><span class="w"> </span><span class="kt">String</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="c1">// Usamos &#39;this&#39; para acceder al valor numérico (19.99)</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="s">&quot;</span><span class="si">$</span><span class="n">this</span><span class="s"> €&quot;</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="p">}</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="kd">fun</span><span class="w"> </span><span class="n">Double</span><span class="p">.</span><span class="nf">conDescuento</span><span class="p">(</span><span class="n">porcentaje</span><span class="p">:</span><span class="w"> </span><span class="kt">Int</span><span class="p">):</span><span class="w"> </span><span class="kt">Double</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="k">this</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">porcentaje</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="m">100</span><span class="p">)</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="p">}</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="kd">fun</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="nv">precioCamiseta</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">20.0</span>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>
+</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="w">    </span><span class="c1">// Podemos encadenar extension functions una detrás de otra 🔗</span>
+</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="w">    </span><span class="n">println</span><span class="p">(</span><span class="n">precioCamiseta</span><span class="p">.</span><span class="na">conDescuento</span><span class="p">(</span><span class="m">50</span><span class="p">).</span><span class="na">aFormatoEuro</span><span class="p">())</span><span class="w"> </span>
+</span><span id="__span-3-16"><a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a><span class="w">    </span><span class="c1">// Imprime: &quot;10.0 €&quot;</span>
+</span><span id="__span-3-17"><a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a><span class="p">}</span>
+</span></code></pre></div>
+<hr />
+<h2 id="por-que-esto-es-vital-para-compose">🚀 ¿Por qué esto es vital para Compose?</h2>
+<p>Quizás pienses: <em>"Vale, es azúcar sintáctico para ahorrarme una clase estática"</em>. Pero en Jetpack Compose, las Extension Functions son la base de todo el diseño.</p>
+<p>Cuando escribes un modificador para cambiar el aspecto de un botón:</p>
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c1">// Todo esto son Extension Functions</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">Modifier</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="p">.</span><span class="na">padding</span><span class="p">(</span><span class="m">16.</span><span class="n">dp</span><span class="p">)</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">    </span><span class="p">.</span><span class="na">background</span><span class="p">(</span><span class="n">Color</span><span class="p">.</span><span class="na">Red</span><span class="p">)</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">    </span><span class="p">.</span><span class="na">clickable</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+</span></code></pre></div>
+<p>En realidad, <code>.padding()</code>, <code>.background()</code> y <code>.clickable()</code> son funciones de extensión que Google ha creado sobre la clase <code>Modifier</code>. Gracias a ellas, podemos encadenar configuraciones de forma fluida y legible.</p>
+<div class="admonition note">
+<p class="admonition-title">Recuerda</p>
+<p>Usa las extension functions para crear código que se lea como una frase natural. Es mucho más fácil leer <code>usuario.esMayorDeEdad()</code> que leer <code>Utils.verificarEdad(usuario)</code>.</p>
+</div>
+<hr />
+<p>Ahora que sabemos potenciar clases existentes, vamos a ver cómo Kotlin revoluciona la forma en que trabajamos con listas de datos.</p>
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a class="md-button" href="../b1-m1_2-data_class_lambdas/">⬅️ Volver a Data Classes</a>
+  <a class="md-button md-button--primary" href="../b1-m1_4-colecciones_modernas/">1.4. Colecciones Modernas ➡️</a>
+</div>
 
 
 
