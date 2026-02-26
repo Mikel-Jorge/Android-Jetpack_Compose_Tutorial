@@ -2,546 +2,546 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/guia/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/b1-fin/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/b1-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_0/b1-m0-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_0/b1-m0_1-instalacion_emuladores/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_0/b1-m0_2-primer_proyecto/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_0/b1-m0_3-versiones_android/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_0/b1-m0_4-motor_gradle_agp/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_0/b1-m0_5-anotaciones_ksp_kapt/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_1/b1-m1-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_1/b1-m1-practica/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_1/b1-m1_1-val_var_null_safety/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_1/b1-m1_2-data_class_lambdas/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_1/b1-m1_3-extension_functions/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_1/b1-m1_4-colecciones_modernas/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_1/b1-m1_5-corrutinas_basicas/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_2/b1-m2-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_2/b1-m2_1-hola_compose/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_2/b1-m2_2-layouts_primitivos/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_2/b1-m2_3-modifiers/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_2/b1-m2_4-preview_tooling/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_2/b1-m2_5-accesibilidad_por_defecto/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_3/b1-m3-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_3/b1-m3_1-recomposicion/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_3/b1-m3_2-memoria_ui/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_3/b1-m3_3-state_hoisting/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_1/modulo_3/b1-m3_4-inputs_eventos/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/b2-fin/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/b2-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_4/b2-m4-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_4/b2-m4_1-adaptative_icons/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_4/b2-m4_1-apps_multiidioma/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_4/b2-m4_1-fuentes_personalizadas/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_4/b2-m4_1-importacion_vectorizacion/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_4/b2-m4_1-vectores_bitmaps/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_5/b2-m5-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_5/b2-m5_1-listas_eficientes/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_5/b2-m5_2-grids/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_5/b2-m5_3-carga_imagenes/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_5/b2-m5_4-material_theming_componentes/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_5/b2-m5_5-indicadores_carga/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_5/b2-m5_6-animaciones_compose/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_5/b2-m5_7-pantallas_flexibles/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_6/b2-m6-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_6/b2-m6_1-grafo_navegacion/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_6/b2-m6_2-rutas_tipadas/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_6/b2-m6_3-paso_argumentos/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_2/modulo_6/b2-m6_4-ui_navegacion/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/b3-fin/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/b3-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_10/b3-m10-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_10/b3-m10_1-datastore/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_10/b3-m10_2-room/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_10/b3-m10_3-relaciones/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_10/b3-m10_4-Reactividad/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_11/b3-m11-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_11/b3-m11_1-clean_architecture/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_11/b3-m11_2-pattern_repository/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_11/b3-m11_3-inyeccion_dependencias/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_11/b3-m11_4-modulos_di/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_7/b3-m7-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_7/b3-m7_1-view_model/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_7/b3-m7_2-state_flow_ui_state/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_7/b3-m7_3-consumo_compose/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_7/b3-m7_4-flujo_unidireccional/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_8/b3-m8-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_8/b3-m8_1-side_effects/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_8/b3-m8_2-launched_effect/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_8/b3-m8_3-corrutinas_ui/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_8/b3-m8_4-disposable_effect/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_9/b3-m8-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_9/b3-m8_1-cliente_http/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_9/b3-m8_2-parsing_json/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_9/b3-m8_3-repositorio_red/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_3/modulo_9/b3-m8_4-gestion_errores/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/b4-fin/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/b4-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_12/b4-m12-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_12/b4-m12_1-setup_console/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_12/b4-m12_2-authentication/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_12/b4-m12_3-firestore/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_12/b4-m12_4-storage/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_13/b4-m13-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_13/b4-m13_1-notificaciones_locales/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_13/b4-m13_2-notificaciones_push/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_13/b4-m13_3-workmanager/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_13/b4-m13_4-receptores/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_14/b4-m14-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_14/b4-m14_1-ia_android/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_14/b4-m14_2-seguridad_setup/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_14/b4-m14_3-p_generacion_texto/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_4/modulo_14/b4-m14_4-p_multimodal_vision/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/b5-fin/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/b5-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_15/b5-m15-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_15/b5-m15_1-permisos_android/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_15/b5-m15_2-accompanist_api_nativa/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_15/b5-m15_3-rationale/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_15/b5-m15_4-manejo_denegaciones/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_16/b5-m16-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_16/b5-m16_1-photo_picker/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_16/b5-m16_2-camerax/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_16/b5-m16_3-_recorte_edicion_basica/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_16/b5-m16_4-manejo_uris_fileprovider/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_17/b5-m17-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_17/b5-m17_1-efectos_sonido_basicos/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_17/b5-m17_2-estandar_moderno/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_17/b5-m17_3-integracion_youtube/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_17/b5-m17_4-reproduccion_segundo_plano/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_18/b5-m18-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_18/b5-m18_1-integracion_permisos_ubicacion/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_18/b5-m18_2-fused_location_provider/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_18/b5-m18_3-google_maps_compose/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_18/b5-m18_4-pintando_mapa/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_19/b5-m19-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_19/b5-m19_1-sensores_fisicos/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_19/b5-m19_2-sensores_ambientales/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_19/b5-m19_3-biometria/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_19/b5-m19_4-linterna_vibracion/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_20/b5-m20-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_20/b5-m20_1-infierno_permisos/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_20/b5-m20_2-escaneo_dispositivos/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_5/modulo_20/b5-m20_3-conexion_gatt/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_6/b6-fin/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_6/b6-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_6/modulo_21/b6-m21-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_6/modulo_21/b6-m21_1-unit_testing/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_6/modulo_21/b6-m21_2-ui_testing/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_6/modulo_21/b6-m21_3-herramientas_debugging/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_6/modulo_21/b6-m21_4-monitorizacion_crashes/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_6/modulo_22/b6-m22-inicio/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_6/modulo_22/b6-m22_1-gradle_kts/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_6/modulo_22/b6-m22_2-seguridad_optimizacion/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_6/modulo_22/b6-m22_3-firmado_digital/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
     <url>
          <loc>https://mikel-jorge.github.io/Android-Jetpack_Compose_Tutorial/bloque_6/modulo_22/b6-m22_4-google_play_console/</loc>
-         <lastmod>2026-02-18</lastmod>
+         <lastmod>2026-02-26</lastmod>
     </url>
 </urlset>
